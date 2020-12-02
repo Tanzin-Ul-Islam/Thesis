@@ -1,7 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d67eb23-6725-4354-bd76-68fba6cbd846" name="Default Changelist" comment="" />
+    <list default="true" id="3d67eb23-6725-4354-bd76-68fba6cbd846" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thesis_project/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thesis_project/passport_organization/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thesis_project/templates/passport_nav.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thesis_project/templates/passport_organization/apply_passport_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thesis_project/templates/passport_organization/fingerprint_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/central_database.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/passport/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/passport/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/passport/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/passport/.idea/passport.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/passport/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/passport/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/passport/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/passport/passport/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/passport/passport/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/passport/passport/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/passport/passport/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/passport/passport/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/passport/passport_organization/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/passport/passport_organization/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/passport/passport_organization/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/passport/passport_organization/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/passport/passport_organization/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/passport/passport_organization/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/passport/passport_organization/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/passport/passport_organization/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/passport/passport_organization/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/passport/templates/nav.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/passport/templates/passport_organization/apply_passport_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/passport/templates/passport_organization/fingerprint_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/passport_database.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thesis_project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/thesis_project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thesis_project/central_organization/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/thesis_project/central_organization/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thesis_project/central_organization/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/thesis_project/central_organization/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thesis_project/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/thesis_project/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thesis_project/templates/central_organization/add_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/thesis_project/templates/central_organization/add_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thesis_project/thesis_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/thesis_project/thesis_project/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thesis_project/thesis_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/thesis_project/thesis_project/urls.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +55,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1jodBg0hwqxShtYYMbXrxnTATbX" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -23,11 +67,13 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/passport/templates/passport_organization" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/thesis_project/templates/passport_organization" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ccare\Desktop\Python\thesis_project\thesis_project\templates\passport_organization" />
       <recent name="C:\Users\Ccare\Desktop\Python\thesis_project\passport\templates\passport_organization" />
     </key>
   </component>
@@ -48,10 +94,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="123" key="FileChooserDialogImpl" timestamp="1604647493134">
+    <state x="463" y="123" key="FileChooserDialogImpl" timestamp="1606678391195">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1604647493134" />
+    <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1606678391195" />
     <state x="186" y="10" key="SettingsEditor" timestamp="1604475024907">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

@@ -6,4 +6,5 @@ from django.conf import settings
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('central_organization.urls')),
+    path('passport/', include('passport_organization.urls')),
 ]

@@ -7,7 +7,14 @@
   <h4 class="alert-heading">{{success}}</h4>
 </div>
 {% endif %}
-<form action="." method="POST" style="padding-top:20px;">
+<form action="{% url 'central_organization:index' %}" method="POST" style="padding-top:20px;">
+
+     <div class="form-group form_field">
+    <b>Finger_Print</b>
+    <input type="text" class="form-control" name="fingerprint" {% if fingerprint %} value="{{fingerprint}}" {% else %} value="empty" {%endif%} required>
+  </div>
+    <a href="{% url 'central_organization:finger_print' %}" class="btn btn-info" style="margin-left: 970px; margin-top: -98px;">Start Process</a>
+
 <div class="form-group form_field">
     <b>First Name</b>
     <input type="text" class="form-control" name="firstname" required>
@@ -38,11 +45,6 @@
     <textarea class="form-control" name="address" required></textarea>
 </div>
 
- <div class="form-group form_field">
-    <b>Finger_Print</b>
-    <input type="text" class="form-control" name="fingerprint" {% if fingerprint%} value="{{fingerprint}}" {% else %} value="empty" {%endif%} required>
-  </div>
-    <a href="{% url 'central_organization:finger_print' %}" class="btn btn-info" style="margin-left: 970px; margin-top: -98px;">Start Process</a>
 
 <div class="form-group form_field">
   <b>Gender</b>
@@ -51,7 +53,7 @@
     <label class="form-check-label">Male</label>
   </div>
   <div class="form-check">
-    <input class="form-check-input" type="radio" name="gender" value="Female" required>
+    <input class="form-check-input" type="radio" name="gender" value="female" required>
     <label class="form-check-label">Female</label>
   </div>
    <div class="form-check">
